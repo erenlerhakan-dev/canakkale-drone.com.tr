@@ -432,8 +432,8 @@
 <div>
 <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="projectType">Çekim Kategorisi *</label>
 <button type="button" role="combobox" aria-controls="radix-:r0:" aria-expanded="false" aria-required="true" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="flex h-9 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1" data-testid="select-quote-project-type">
-<span data-replit-metadata="client/src/components/QuoteForm.tsx:200:24" data-component-name="SelectValue" style="pointer-events: none;">Kategori seçiniz</span>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" data-replit-metadata="client/src/components/ui/select.tsx:29:6" data-component-name="ChevronDown" aria-hidden="true">
+<span style="pointer-events: none;">Kategori seçiniz</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" aria-hidden="true">
 <path d="m6 9 6 6 6-6"></path>
 </svg>
 </button>
@@ -446,296 +446,297 @@
 <option value="other">Farklı Proje</option>
 </select>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:215:18" data-component-name="div">
-<label data-replit-metadata="client/src/components/QuoteForm.tsx:216:20" data-component-name="Label" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="message">Proje Detayları *</label>
-<textarea data-replit-metadata="client/src/components/QuoteForm.tsx:217:20" data-component-name="Textarea" class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="message" required="" placeholder="Projenizin kapsamı ve beklentileriniz hakkında bilgi veriniz..." rows="5" data-testid="textarea-quote-message"></textarea>
+<div>
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="message">Proje Detayları *</label>
+<textarea class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="message" required="" placeholder="Projenizin kapsamı ve beklentileriniz hakkında bilgi veriniz..." rows="5" data-testid="textarea-quote-message"></textarea>
 </div>
-<button data-replit-metadata="client/src/components/QuoteForm.tsx:234:18" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 bg-primary text-primary-foreground border border-primary-border min-h-10 rounded-md px-8 w-full" type="submit" data-testid="button-submit-quote">Teklif Talep Et</button>
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 bg-primary text-primary-foreground border border-primary-border min-h-10 rounded-md px-8 w-full" type="submit" data-testid="button-submit-quote">Teklif Talep Et</button>
 </form>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:255:10" data-component-name="div" class="space-y-6">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:256:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:257:14" data-component-name="CardContent" class="p-6">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:258:16" data-component-name="div" class="flex items-start gap-3 mb-4">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:259:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-5 h-5" data-replit-metadata="client/src/components/QuoteForm.tsx:260:20" data-component-name="Clock">
+<div class="space-y-6">
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
+<div class="p-6">
+<div class="flex items-start gap-3 mb-4">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-5 h-5">
 <circle cx="12" cy="12" r="10"></circle>
 <polyline points="12 6 12 12 16 14"></polyline>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:262:18" data-component-name="div">
-<h3 data-replit-metadata="client/src/components/QuoteForm.tsx:263:20" data-component-name="h3" class="font-semibold mb-1">Çabuk Dönüş</h3>
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:264:20" data-component-name="p" class="text-sm text-muted-foreground">Bir iş günü içinde yanıt garantisi veriyoruz</p>
+<div>
+<h3 class="font-semibold mb-1">Çabuk Dönüş</h3>
+<p class="text-sm text-muted-foreground">Bir iş günü içinde yanıt garantisi veriyoruz</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:269:16" data-component-name="div" class="flex items-start gap-3 mb-4">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:270:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-5 h-5" data-replit-metadata="client/src/components/QuoteForm.tsx:271:20" data-component-name="CheckCircle">
+<div class="flex items-start gap-3 mb-4">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-5 h-5">
 <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
 <path d="m9 11 3 3L22 4"></path>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:273:18" data-component-name="div">
-<h3 data-replit-metadata="client/src/components/QuoteForm.tsx:274:20" data-component-name="h3" class="font-semibold mb-1">Uzman Rehberlik</h3>
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:275:20" data-component-name="p" class="text-sm text-muted-foreground">Projeniz için en uygun çözümü birlikte planlarız</p>
+<div >
+<h3 class="font-semibold mb-1">Uzman Rehberlik</h3>
+<p class="text-sm text-muted-foreground">Projeniz için en uygun çözümü birlikte planlarız</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:280:16" data-component-name="div" class="flex items-start gap-3">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:281:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-5 h-5" data-replit-metadata="client/src/components/QuoteForm.tsx:282:20" data-component-name="Shield">
+<div class="flex items-start gap-3">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-5 h-5">
 <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:284:18" data-component-name="div">
-<h3 data-replit-metadata="client/src/components/QuoteForm.tsx:285:20" data-component-name="h3" class="font-semibold mb-1">Bilgi Güvenliği</h3>
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:286:20" data-component-name="p" class="text-sm text-muted-foreground">Verileriniz gizlilik ilkesiyle korunur</p>
+<div>
+<h3 class="font-semibold mb-1">Bilgi Güvenliği</h3>
+<p class="text-sm text-muted-foreground">Verileriniz gizlilik ilkesiyle korunur</p>
 </div>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:294:12" data-component-name="Card" class="shadcn-card rounded-xl border border-card-border shadow-sm bg-primary text-primary-foreground">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:295:14" data-component-name="CardContent" class="p-6 text-center">
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:296:16" data-component-name="p" class="text-2xl font-bold mb-2">%15 Avantaj</p>
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:297:16" data-component-name="p" class="text-sm opacity-90">Yeni müşterilerimize özel fırsat! <br data-replit-metadata="client/src/components/QuoteForm.tsx:299:18" data-component-name="br">Şimdi fiyat isteyin. </p>
+<div class="shadcn-card rounded-xl border border-card-border shadow-sm bg-primary text-primary-foreground">
+<div class="p-6 text-center">
+<p class="text-2xl font-bold mb-2">%15 Avantaj</p>
+<p class="text-sm opacity-90">Yeni müşterilerimize özel fırsat! <br>Şimdi fiyat isteyin. </p>
 </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section data-replit-metadata="client/src/components/Testimonials.tsx:34:4" data-component-name="section" class="py-16 md:py-24 bg-background">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:35:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:36:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/Testimonials.tsx:37:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">Müşteri Deneyimleri</h2>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:40:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale genelinde onlarca başarılı proje gerçekleştirdik. Müşterilerimizin değerlendirmeleri.</p>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:45:8" data-component-name="div" class="grid md:grid-cols-3 gap-8">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:47:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-0">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:52:14" data-component-name="CardContent" class="p-6">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:53:16" data-component-name="div" class="flex items-center gap-4 mb-4">
-<span data-replit-metadata="client/src/components/Testimonials.tsx:54:18" data-component-name="Avatar" class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
-<img data-replit-metadata="client/src/components/Testimonials.tsx:55:20" data-component-name="AvatarImage" class="aspect-square h-full w-full" alt="Hakan Kaya - drone çekimi müşteri görüşü" title="Hakan Kaya" src="/@fs/home/runner/workspace/attached_assets/generated_images/business_client_testimonial_portrait.png">
-</span>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:62:18" data-component-name="div">
-<p data-replit-metadata="client/src/components/Testimonials.tsx:63:20" data-component-name="p" class="font-semibold text-foreground">Hakan Kaya</p>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:64:20" data-component-name="p" class="text-sm text-muted-foreground">Kaya Yapı A.Ş.</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:67:16" data-component-name="div" class="flex gap-1 mb-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-</div>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:72:16" data-component-name="p" class="text-sm text-muted-foreground leading-relaxed">"Yapı projemizin tüm aşamalarını drone ile belgeledik. Teknik yeterlilik ve görsel kalite beklentilerimizin üzerindeydi. Çanakkale'de havadan çekim denince akla ilk gelen isim!"</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:47:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-1">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:52:14" data-component-name="CardContent" class="p-6">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:53:16" data-component-name="div" class="flex items-center gap-4 mb-4">
-<span data-replit-metadata="client/src/components/Testimonials.tsx:54:18" data-component-name="Avatar" class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
-<img data-replit-metadata="client/src/components/Testimonials.tsx:55:20" data-component-name="AvatarImage" class="aspect-square h-full w-full" alt="Elif Arslan - drone çekimi müşteri görüşü" title="Elif Arslan" src="/@fs/home/runner/workspace/attached_assets/generated_images/architect_client_testimonial_portrait.png">
-</span>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:62:18" data-component-name="div">
-<p data-replit-metadata="client/src/components/Testimonials.tsx:63:20" data-component-name="p" class="font-semibold text-foreground">Elif Arslan</p>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:64:20" data-component-name="p" class="text-sm text-muted-foreground">Arslan Emlak</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:67:16" data-component-name="div" class="flex gap-1 mb-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-</div>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:72:16" data-component-name="p" class="text-sm text-muted-foreground leading-relaxed">"Portföyümüzdeki lüks konutlar için havadan görüntüler çektirdik. Potansiyel alıcıların ilgisi gözle görülür şekilde arttı. İşlerinde uzman bir ekip, gönül rahatlığıyla önerebilirim."</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:47:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-2">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:52:14" data-component-name="CardContent" class="p-6">
-<div data-replit-metadata="client/src/components/Testimonials.tsx:53:16" data-component-name="div" class="flex items-center gap-4 mb-4">
-<span data-replit-metadata="client/src/components/Testimonials.tsx:54:18" data-component-name="Avatar" class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
-<img data-replit-metadata="client/src/components/Testimonials.tsx:55:20" data-component-name="AvatarImage" class="aspect-square h-full w-full" alt="Burak Şahin - drone çekimi müşteri görüşü" title="Burak Şahin" src="/@fs/home/runner/workspace/attached_assets/generated_images/developer_client_testimonial_portrait.png">
-</span>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:62:18" data-component-name="div">
-<p data-replit-metadata="client/src/components/Testimonials.tsx:63:20" data-component-name="p" class="font-semibold text-foreground">Burak Şahin</p>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:64:20" data-component-name="p" class="text-sm text-muted-foreground">Şahin Events</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/Testimonials.tsx:67:16" data-component-name="div" class="flex gap-1 mb-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary" data-replit-metadata="client/src/components/Testimonials.tsx:69:20" data-component-name="Star">
-<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-</svg>
-</div>
-<p data-replit-metadata="client/src/components/Testimonials.tsx:72:16" data-component-name="p" class="text-sm text-muted-foreground leading-relaxed">"Nikah törenimiz için havadan çekim yaptırdık. Elde edilen görüntüler olağanüstüydü! Video ve fotoğrafların her karesi profesyonel dokunuşu yansıtıyor. Kesinlikle tercih edilmeli."</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section data-replit-metadata="client/src/components/References.tsx:16:4" data-component-name="section" class="py-16 md:py-24 bg-muted/30">
-<div data-replit-metadata="client/src/components/References.tsx:17:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/References.tsx:18:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/References.tsx:19:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">İş Ortaklarımız</h2>
-<p data-replit-metadata="client/src/components/References.tsx:22:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale ve çevresinin saygın kuruluşları bizimle çalışıyor.</p>
+<section class="py-16 md:py-24 bg-background">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Müşteri Deneyimleri</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale genelinde onlarca başarılı proje gerçekleştirdik. Müşterilerimizin değerlendirmeleri.</p>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:27:8" data-component-name="div" class="grid grid-cols-2 md:grid-cols-4 gap-6">
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-0">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Çanakkale Valiliği</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-1">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">18 Mart Üniversitesi</p>
-</div>
-</div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-2">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Kaya Yapı A.Ş.</p>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-0">
+<div class="p-6">
+<div class="flex items-center gap-4 mb-4">
+<span class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
+<img class="aspect-square h-full w-full" alt="Hakan Kaya - drone çekimi müşteri görüşü" title="Hakan Kaya" src="">
+</span>
+<div>
+<p class="font-semibold text-foreground">Hakan Kaya</p>
+<p class="text-sm text-muted-foreground">Kaya Yapı A.Ş.</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-3">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Arslan Emlak</p>
+<div class="flex gap-1 mb-3">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+</div>
+<p class="text-sm text-muted-foreground leading-relaxed">"Yapı projemizin tüm aşamalarını drone ile belgeledik. Teknik yeterlilik ve görsel kalite beklentilerimizin üzerindeydi. Çanakkale'de havadan çekim denince akla ilk gelen isim!"</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-4">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Şahin Events</p>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-1">
+<div class="p-6">
+<div class="flex items-center gap-4 mb-4">
+<span class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
+<img class="aspect-square h-full w-full" alt="Elif Arslan - drone çekimi müşteri görüşü" title="Elif Arslan" src="/@fs/home/runner/workspace/attached_assets/generated_images/architect_client_testimonial_portrait.png">
+</span>
+<div>
+<p class="font-semibold text-foreground">Elif Arslan</p>
+<p class="text-sm text-muted-foreground">Arslan Emlak</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-5">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Gelibolu Marina</p>
+<div class="flex gap-1 mb-3">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+</div>
+<p class="text-sm text-muted-foreground leading-relaxed">"Portföyümüzdeki lüks konutlar için havadan görüntüler çektirdik. Potansiyel alıcıların ilgisi gözle görülür şekilde arttı. İşlerinde uzman bir ekip, gönül rahatlığıyla önerebilirim."</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-6">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Ege Turizm</p>
+<div dclass="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all" data-testid="card-testimonial-2">
+<div class="p-6">
+<div class="flex items-center gap-4 mb-4">
+<span class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
+<img class="aspect-square h-full w-full" alt="Burak Şahin - drone çekimi müşteri görüşü" title="Burak Şahin" src="/@fs/home/runner/workspace/attached_assets/generated_images/developer_client_testimonial_portrait.png">
+</span>
+<div>
+<p class="font-semibold text-foreground">Burak Şahin</p>
+<p class="text-sm text-muted-foreground">Şahin Events</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/References.tsx:29:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-7">
-<div data-replit-metadata="client/src/components/References.tsx:34:14" data-component-name="CardContent" class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
-<p data-replit-metadata="client/src/components/References.tsx:35:16" data-component-name="p" class="text-base font-semibold text-center text-foreground">Atlas Mimarlık</p>
+<div class="flex gap-1 mb-3">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-primary text-primary">
+<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+</div>
+<p class="text-sm text-muted-foreground leading-relaxed">"Nikah törenimiz için havadan çekim yaptırdık. Elde edilen görüntüler olağanüstüydü! Video ve fotoğrafların her karesi profesyonel dokunuşu yansıtıyor. Kesinlikle tercih edilmeli."</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section data-replit-metadata="client/src/components/Portfolio.tsx:25:4" data-component-name="section" id="portfolio" class="py-16 md:py-24 bg-background">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:26:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:27:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/Portfolio.tsx:28:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">Çalışmalarımız</h2>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:31:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale bölgesinde tamamladığımız profesyonel havadan çekim projeleri.</p>
+<section class="py-16 md:py-24 bg-muted/30">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">İş Ortaklarımız</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale ve çevresinin saygın kuruluşları bizimle çalışıyor.</p>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:36:8" data-component-name="div" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-0">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-0">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Çanakkale Valiliği</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-1">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">18 Mart Üniversitesi</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-2">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Kaya Yapı A.Ş.</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-3">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Arslan Emlak</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-4">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Şahin Events</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-5">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Gelibolu Marina</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-6">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Ege Turizm</p>
+</div>
+</div>
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-reference-7">
+<div class="p-6 px-4 py-6 flex items-center justify-center min-h-24">
+<p class="text-base font-semibold text-center text-foreground">Atlas Mimarlık</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section did="portfolio" class="py-16 md:py-24 bg-background">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Çalışmalarımız</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale bölgesinde tamamladığımız profesyonel havadan çekim projeleri.</p>
+</div>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-0">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Çanakkale boğazı drone görüntüsü" title="Boğaz Manzarası" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Boğaz Manzarası</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Boğaz Manzarası</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-1">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-1">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Kurumsal drone video çekimi" title="Kurumsal Tanıtım" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:56:18" data-component-name="div" class="absolute inset-0 flex items-center justify-center">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:57:20" data-component-name="div" class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Kurumsal Tanıtım</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Video</p>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Kurumsal Tanıtım</p>
+<p class="text-white/80 text-sm capitalize">Video</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-2">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-2">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Şantiye drone izleme görüntüsü" title="Şantiye Belgeleme" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Şantiye Belgeleme</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Şantiye Belgeleme</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-3">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-3">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Nikah töreni drone çekimi" title="Nikah Görüntüleri" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:56:18" data-component-name="div" class="absolute inset-0 flex items-center justify-center">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:57:20" data-component-name="div" class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Nikah Görüntüleri</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Video</p>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Nikah Görüntüleri</p>
+<p class="text-white/80 text-sm capitalize">Video</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-4">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-4">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Gayrimenkul drone fotoğrafı" title="Villa Görselleri" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Villa Görselleri</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Villa Görselleri</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-5">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-5">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Yat limanı drone görüntüsü" title="Marina Panorama" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Marina Panorama</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Marina Panorama</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
@@ -755,7 +756,7 @@ xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400
 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
 <div class="absolute inset-0 flex items-center justify-center">
 <div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
 </div>
@@ -792,7 +793,7 @@ xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400
 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
 <div class="absolute inset-0 flex items-center justify-center">
 <div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
 </div>
