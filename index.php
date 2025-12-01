@@ -4755,27 +4755,27 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
           <div class="max-w-7xl mx-auto px-4 md:px-6">
             <div class="text-center mb-12">
               <h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Bize Ulaşın</h2>
-              <p data-replit-metadata="client/src/components/Contact.tsx:12:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Her türlü sorunuz için iletişime geçebilirsiniz. Size destek olmaktan memnuniyet duyarız.</p>
+              <p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Her türlü sorunuz için iletişime geçebilirsiniz. Size destek olmaktan memnuniyet duyarız.</p>
             </div>
-            <div data-replit-metadata="client/src/components/Contact.tsx:17:8" data-component-name="div" class="grid lg:grid-cols-5 gap-8">
-              <div data-replit-metadata="client/src/components/Contact.tsx:18:10" data-component-name="div" class="lg:col-span-3">
-                <div data-replit-metadata="client/src/components/Contact.tsx:19:12" data-component-name="div" class="aspect-video rounded-xl overflow-hidden shadow-lg">
-                  <iframe data-replit-metadata="client/src/components/Contact.tsx:20:14" data-component-name="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.234567890123!2d26.4142!3d40.1553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA5JzE5LjEiTiAyNsKwMjQnNTEuMSJF!5e0!3m2!1str!2str!4v1234567890123!5m2!1str!2str" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Drone Çekimi Ofis Lokasyonu - Harita" style="border: 0px;"></iframe>
+            <div class="grid lg:grid-cols-5 gap-8">
+              <div class="lg:col-span-3">
+                <div class="aspect-video rounded-xl overflow-hidden shadow-lg">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.234567890123!2d26.4142!3d40.1553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA5JzE5LjEiTiAyNsKwMjQnNTEuMSJF!5e0!3m2!1str!2str!4v1234567890123!5m2!1str!2str" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Drone Çekimi Ofis Lokasyonu - Harita" style="border: 0px;"></iframe>
                 </div>
               </div>
-              <div data-replit-metadata="client/src/components/Contact.tsx:33:10" data-component-name="div" class="lg:col-span-2 space-y-4">
-                <div data-replit-metadata="client/src/components/Contact.tsx:34:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
-                  <div data-replit-metadata="client/src/components/Contact.tsx:35:14" data-component-name="CardContent" class="p-6">
-                    <div data-replit-metadata="client/src/components/Contact.tsx:36:16" data-component-name="div" class="flex items-start gap-3">
-                      <div data-replit-metadata="client/src/components/Contact.tsx:37:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5" data-replit-metadata="client/src/components/Contact.tsx:38:20" data-component-name="MapPin">
+              <div class="lg:col-span-2 space-y-4">
+                <div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="p-2 rounded-lg bg-primary/10 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5">
                           <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                           <circle cx="12" cy="10" r="3"></circle>
                         </svg>
                       </div>
-                      <div data-replit-metadata="client/src/components/Contact.tsx:40:18" data-component-name="div">
-                        <h3 data-replit-metadata="client/src/components/Contact.tsx:41:20" data-component-name="h3" class="font-semibold mb-1 text-foreground">Adres Bilgisi</h3>
-                        <p data-replit-metadata="client/src/components/Contact.tsx:42:20" data-component-name="p" class="text-sm text-muted-foreground">Esenler Mh. Ahmet Piriştina Cd. <br data-replit-metadata="client/src/components/Contact.tsx:44:22" data-component-name="br">No:19 Daire:17 <br data-replit-metadata="client/src/components/Contact.tsx:46:22" data-component-name="br">Çanakkale 17000 </p>
+                      <div>
+                        <h3class="font-semibold mb-1 text-foreground">Adres Bilgisi</h3>
+                        <pclass="text-sm text-muted-foreground">Esenler Mh. Ahmet Piriştina Cd. <br>No:19 Daire:17 <br data-replit-metadata="client/src/components/Contact.tsx:46:22" data-component-name="br">Çanakkale 17000 </p>
                       </div>
                     </div>
                   </div>
@@ -4832,78 +4832,79 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
           </div>
         </section>
       
-        <footer data-replit-metadata="client/src/components/Footer.tsx:12:4" data-component-name="footer" class="bg-muted/50 border-t">
-          <div data-replit-metadata="client/src/components/Footer.tsx:13:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6 py-12">
-            <div data-replit-metadata="client/src/components/Footer.tsx:14:8" data-component-name="div" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-              <div data-replit-metadata="client/src/components/Footer.tsx:15:10" data-component-name="div">
-                <h3 data-replit-metadata="client/src/components/Footer.tsx:16:12" data-component-name="h3" class="text-xl font-bold text-primary mb-4">Drone Çekimi</h3>
-                <p data-replit-metadata="client/src/components/Footer.tsx:17:12" data-component-name="p" class="text-sm text-muted-foreground mb-4">Çanakkale'nin profesyonel havadan görüntüleme hizmeti. Video prodüksiyon ve fotoğrafçılık alanında tecrübeli kadromuzla hizmetinizdeyiz.</p>
+        <footer class="bg-muted/50 border-t">
+          <div class="max-w-7xl mx-auto px-4 md:px-6 py-12">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+              <div>
+                <h3 class="text-xl font-bold text-primary mb-4">Drone Çekimi</h3>
+                <p class="text-sm text-muted-foreground mb-4">Çanakkale'nin profesyonel havadan görüntüleme hizmeti. Video prodüksiyon ve fotoğrafçılık alanında tecrübeli kadromuzla hizmetinizdeyiz.</p>
               </div>
-              <div data-replit-metadata="client/src/components/Footer.tsx:23:10" data-component-name="div">
-                <h4 data-replit-metadata="client/src/components/Footer.tsx:24:12" data-component-name="h4" class="font-semibold text-foreground mb-4">Hızlı Erişim</h4>
-                <ul data-replit-metadata="client/src/components/Footer.tsx:25:12" data-component-name="ul" class="space-y-2">
-                  <li data-replit-metadata="client/src/components/Footer.tsx:26:14" data-component-name="li">
-                    <button data-replit-metadata="client/src/components/Footer.tsx:27:16" data-component-name="button" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-home" title="Anasayfa - Drone Çekimi">Anasayfa</button>
+              <div>
+                <h4 class="font-semibold text-foreground mb-4">Hızlı Erişim</h4>
+                <ul class="space-y-2">
+                  <li>
+                    <button class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-home" title="Anasayfa - Drone Çekimi">Anasayfa</button>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:36:14" data-component-name="li">
-                    <button data-replit-metadata="client/src/components/Footer.tsx:37:16" data-component-name="button" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-about" title="Biz Kimiz - Drone Çekimi">Biz Kimiz</button>
+                  <li>
+                    <button class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-about" title="Biz Kimiz - Drone Çekimi">Biz Kimiz</button>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:46:14" data-component-name="li">
-                    <button data-replit-metadata="client/src/components/Footer.tsx:47:16" data-component-name="button" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-services" title="Çözümlerimiz - Drone Çekimi">Çözümlerimiz</button>
+                  <li>
+                    <button class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-services" title="Çözümlerimiz - Drone Çekimi">Çözümlerimiz</button>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:56:14" data-component-name="li">
-                    <button data-replit-metadata="client/src/components/Footer.tsx:57:16" data-component-name="button" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-portfolio" title="Galeri - Drone Çekimi">Galeri</button>
+                  <li>
+                    <button class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-portfolio" title="Galeri - Drone Çekimi">Galeri</button>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:66:14" data-component-name="li">
-                    <button data-replit-metadata="client/src/components/Footer.tsx:67:16" data-component-name="button" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact" title="Bize Ulaşın - Drone Çekimi">Bize Ulaşın</button>
+                  <li>
+                    <button class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact" title="Bize Ulaşın - Drone Çekimi">Bize Ulaşın</button>
                   </li>
                 </ul>
               </div>
             
-              <div data-replit-metadata="client/src/components/Footer.tsx:79:10" data-component-name="div">
-                <h4 data-replit-metadata="client/src/components/Footer.tsx:80:12" data-component-name="h4" class="font-semibold text-foreground mb-4">Çözümler</h4>
-                <ul data-replit-metadata="client/src/components/Footer.tsx:81:12" data-component-name="ul" class="space-y-2">
-                  <li data-replit-metadata="client/src/components/Footer.tsx:82:14" data-component-name="li">
-                    <span data-replit-metadata="client/src/components/Footer.tsx:83:16" data-component-name="span" class="text-sm text-muted-foreground">Video Prodüksiyon</span>
+              <div>
+                <h4 class="font-semibold text-foreground mb-4">Çözümler</h4>
+                <ul class="space-y-2">
+                  <li>
+                    <span class="text-sm text-muted-foreground">Video Prodüksiyon</span>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:85:14" data-component-name="li">
-                    <span data-replit-metadata="client/src/components/Footer.tsx:86:16" data-component-name="span" class="text-sm text-muted-foreground">Havadan Fotoğraf</span>
+                  <li>
+                    <span class="text-sm text-muted-foreground">Havadan Fotoğraf</span>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:88:14" data-component-name="li">
-                    <span data-replit-metadata="client/src/components/Footer.tsx:89:16" data-component-name="span" class="text-sm text-muted-foreground">Şantiye İzleme</span>
+                  <li>
+                    <span class="text-sm text-muted-foreground">Şantiye İzleme</span>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:91:14" data-component-name="li">
-                    <span data-replit-metadata="client/src/components/Footer.tsx:92:16" data-component-name="span" class="text-sm text-muted-foreground">Gayrimenkul Görüntüleme</span>
+                  <li>
+                    <span class="text-sm text-muted-foreground">Gayrimenkul Görüntüleme</span>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:94:14" data-component-name="li">
-                    <span data-replit-metadata="client/src/components/Footer.tsx:95:16" data-component-name="span" class="text-sm text-muted-foreground">Organizasyon Çekimi</span>
+                  <li>
+                    <span class="text-sm text-muted-foreground">Organizasyon Çekimi</span>
                   </li>
                 </ul>
               </div>
-              <div data-replit-metadata="client/src/components/Footer.tsx:100:10" data-component-name="div">
-                <h4 data-replit-metadata="client/src/components/Footer.tsx:101:12" data-component-name="h4" class="font-semibold text-foreground mb-4">İletişim Bilgileri</h4>
+              <div>
+                <h4 class="font-semibold text-foreground mb-4">İletişim Bilgileri</h4>
                 <ul class="space-y-2">
                   <li >
                     <span class="text-sm text-muted-foreground">Çanakkale, Türkiye</span>
                   </li>
                   <li>
-                    <a data-replit-metadata="client/src/components/Footer.tsx:107:16" data-component-name="a" href="tel:+905347922531" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-phone">+90 534 792 25 31</a>
+                    <a href="tel:+905347922531" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-phone">+90 534 792 25 31</a>
                   </li>
-                  <li data-replit-metadata="client/src/components/Footer.tsx:115:14" data-component-name="li">
-                    <a data-replit-metadata="client/src/components/Footer.tsx:116:16" data-component-name="a" href="mailto:info@cozumcloud.com.tr" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-email">info@cozumcloud.com.tr</a>
+                  <li>
+                    <a href="mailto:info@cozumcloud.com.tr" class="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-email">info@cozumcloud.com.tr</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div data-replit-metadata="client/src/components/Footer.tsx:128:8" data-component-name="div" class="border-t pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-              <p data-replit-metadata="client/src/components/Footer.tsx:129:10" data-component-name="p" class="text-sm text-muted-foreground">© 2024 Çanakkale Drone Çekimi. Tüm hakları saklıdır.</p>
-              <div data-replit-metadata="client/src/components/Footer.tsx:132:10" data-component-name="div" class="flex gap-4">
-                <a data-replit-metadata="client/src/components/Footer.tsx:133:12" data-component-name="a" href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="Facebook" data-testid="link-social-facebook" title="Drone Çekimi Facebook">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook w-5 h-5" data-replit-metadata="client/src/components/Footer.tsx:140:14" data-component-name="Facebook">
+          
+            <div class="border-t pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+              <p class="text-sm text-muted-foreground">© 2024 Çanakkale Drone Çekimi. Tüm hakları saklıdır.</p>
+              <div class="flex gap-4">
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="Facebook" title="Drone Çekimi Facebook">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook w-5 h-5">
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                   </svg>
                 </a>
-                <a data-replit-metadata="client/src/components/Footer.tsx:142:12" data-component-name="a" href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="Instagram" data-testid="link-social-instagram" title="Drone Çekimi Instagram">
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="Instagram" data-testid="link-social-instagram" title="Drone Çekimi Instagram">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram w-5 h-5" data-replit-metadata="client/src/components/Footer.tsx:149:14" data-component-name="Instagram">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -4915,8 +4916,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                     <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                   </svg>
                 </a>
-                <a data-replit-metadata="client/src/components/Footer.tsx:160:12" data-component-name="a" href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="YouTube" data-testid="link-social-youtube" title="Drone Çekimi YouTube">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube w-5 h-5" data-replit-metadata="client/src/components/Footer.tsx:167:14" data-component-name="Youtube">
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors p-2 hover-elevate active-elevate-2 rounded-md" aria-label="YouTube" data-testid="link-social-youtube" title="Drone Çekimi YouTube">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube w-5 h-5">
                     <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
                     <path d="m10 15 5-3-5-3z"></path>
                   </svg>
@@ -4926,9 +4927,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
           </div>
         </footer>
       
-        <div data-replit-metadata="client/src/components/UrgencyBadge.tsx:13:4" data-component-name="div" class="fixed bottom-6 left-6 z-40 animate-pulse">
-          <div data-replit-metadata="client/src/components/UrgencyBadge.tsx:14:6" data-component-name="Badge" class="whitespace-nowrap inline-flex items-center rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover-elevate border-transparent px-4 py-3 text-sm font-semibold shadow-xl cursor-pointer bg-primary text-primary-foreground hover-elevate active-elevate-2" data-testid="badge-urgency">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 mr-2" data-replit-metadata="client/src/components/UrgencyBadge.tsx:19:8" data-component-name="Sparkles">
+        <div class="fixed bottom-6 left-6 z-40 animate-pulse">
+          <div class="whitespace-nowrap inline-flex items-center rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover-elevate border-transparent px-4 py-3 text-sm font-semibold shadow-xl cursor-pointer bg-primary text-primary-foreground hover-elevate active-elevate-2" data-testid="badge-urgency">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 mr-2">
               <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
               <path d="M20 3v4"></path>
               <path d="M22 5h-4"></path>
@@ -4938,8 +4939,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
           </div>
         </div>
       
-        <button data-replit-metadata="client/src/components/WhatsAppButton.tsx:9:4" data-component-name="button" class="w-16 h-16 rounded-full bg-[#25D366] text-white shadow-xl hover-elevate active-elevate-2 flex items-center justify-center transition-all" aria-label="WhatsApp ile iletişime geç" data-testid="button-whatsapp" title="WhatsApp ile Drone Çekimi ekibine ulaşın" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-8 h-8" data-replit-metadata="client/src/components/WhatsAppButton.tsx:22:6" data-component-name="MessageCircle">
+        <button class="w-16 h-16 rounded-full bg-[#25D366] text-white shadow-xl hover-elevate active-elevate-2 flex items-center justify-center transition-all" aria-label="WhatsApp ile iletişime geç" data-testid="button-whatsapp" title="WhatsApp ile Drone Çekimi ekibine ulaşın" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-8 h-8">
             <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
           </svg>
         </button>
