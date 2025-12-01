@@ -96,13 +96,16 @@
 <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
 <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
 </div>
+
 <div class="min-h-screen">
 
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background/95 backdrop-blur-md shadow-md">
 
 <div class="max-w-7xl mx-auto px-4 md:px-6">
 <div class="flex items-center justify-between h-20">
+
 <button class="text-xl md:text-2xl font-bold text-primary hover-elevate active-elevate-2 rounded-md px-3 py-2" data-testid="link-logo" title="Çanakkale Drone Çekimi Anasayfa">Drone Çekimi</button>
+
 <nav class="hidden md:flex items-center gap-1">
 <button class="px-4 py-2 text-foreground hover-elevate active-elevate-2 rounded-md transition-colors" data-testid="link-nav-hero" title="Anasayfa - Çanakkale Drone Çekimi">Anasayfa</button>
 <button class="px-4 py-2 text-foreground hover-elevate active-elevate-2 rounded-md transition-colors" data-testid="link-nav-about" title="Biz Kimiz - Çanakkale Drone Çekimi">Biz Kimiz</button>
@@ -110,6 +113,7 @@
 <button class="px-4 py-2 text-foreground hover-elevate active-elevate-2 rounded-md transition-colors" data-testid="link-nav-portfolio" title="Galeri - Çanakkale Drone Çekimi">Galeri</button>
 <button class="px-4 py-2 text-foreground hover-elevate active-elevate-2 rounded-md transition-colors" data-testid="link-nav-contact" title="Bize Ulaşın - Çanakkale Drone Çekimi">Bize Ulaşın</button>
 </nav>
+
 <div class="hidden md:flex items-center gap-2">
 <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-8 rounded-md px-3 text-xs" data-testid="button-header-phone" title="Drone Çekimi Telefon">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-4 h-4 mr-2">
@@ -121,6 +125,7 @@
 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
 </svg>Fiyat İste </button>
 </div>
+
 <button class="md:hidden p-2 hover-elevate active-elevate-2 rounded-md" data-testid="button-mobile-menu" aria-label="Menü">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-6 h-6">
 <line x1="4" x2="20" y1="12" y2="12"></line>
@@ -128,128 +133,144 @@
 <line x1="4" x2="20" y1="18" y2="18"></line>
 </svg>
 </button>
+
 </div>
 </div>
 
 </header>
 
-<section data-replit-metadata="client/src/components/Hero.tsx:14:4" data-component-name="section" id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-<div data-replit-metadata="client/src/components/Hero.tsx:18:6" data-component-name="div" class="absolute inset-0 bg-cover bg-center" style="background-image: url(&quot;/@fs/home/runner/workspace/attached_assets/generated_images/%C3%A7anakkale_aerial_hero_view.png&quot;);">
-<div data-replit-metadata="client/src/components/Hero.tsx:22:8" data-component-name="div" class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+<section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url(&quot;/@fs/home/runner/workspace/attached_assets/generated_images/%C3%A7anakkale_aerial_hero_view.png&quot;);">
+<div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
 </div>
-<div data-replit-metadata="client/src/components/Hero.tsx:25:6" data-component-name="div" class="relative z-10 max-w-7xl mx-auto px-4 md:px-6 text-center">
-<h1 data-replit-metadata="client/src/components/Hero.tsx:26:8" data-component-name="h1" class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight">
-<span data-replit-metadata="client/src/components/Hero.tsx:27:10" data-component-name="span" class="text-primary">Çanakkale Drone Çekimi</span>
-<br data-replit-metadata="client/src/components/Hero.tsx:28:10" data-component-name="br">Havadan Görüntüleme Uzmanı
+<div class="relative z-10 max-w-7xl mx-auto px-4 md:px-6 text-center">
+<h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight">
+<span class="text-primary">Çanakkale Drone Çekimi</span>
+<br>Havadan Görüntüleme Uzmanı
 </h1>
-<p data-replit-metadata="client/src/components/Hero.tsx:31:8" data-component-name="p" class="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Bölgenin deneyimli drone operatörleri olarak sinematik video prodüksiyon, gayrimenkul görüntüleme, şantiye izleme ve özel etkinlik çekimi hizmetleri sunuyoruz. Modern ekipmanlarımız ve yaratıcı bakış açımızla projelerinizi havadan keşfedin.</p>
-<div data-replit-metadata="client/src/components/Hero.tsx:36:8" data-component-name="div" class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-<button data-replit-metadata="client/src/components/Hero.tsx:37:10" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 text-primary-foreground min-h-10 rounded-md px-8 py-6 text-lg font-semibold shadow-xl bg-primary/90 backdrop-blur-sm border border-primary-border" data-testid="button-hero-quote" title="Ücretsiz Fiyat Teklifi - Drone Çekimi">Hemen Fiyat Alın</button>
-<button data-replit-metadata="client/src/components/Hero.tsx:47:10" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] active:shadow-none min-h-10 rounded-md px-8 py-6 text-lg font-semibold shadow-xl bg-background/20 backdrop-blur-sm text-white border-white/30 hover:bg-background/30" data-testid="button-hero-services" title="Çözümlerimiz - Drone Çekimi">Çözümlerimiz</button>
+<p class="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Bölgenin deneyimli drone operatörleri olarak sinematik video prodüksiyon, gayrimenkul görüntüleme, şantiye izleme ve özel etkinlik çekimi hizmetleri sunuyoruz. Modern ekipmanlarımız ve yaratıcı bakış açımızla projelerinizi havadan keşfedin.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 text-primary-foreground min-h-10 rounded-md px-8 py-6 text-lg font-semibold shadow-xl bg-primary/90 backdrop-blur-sm border border-primary-border" data-testid="button-hero-quote" title="Ücretsiz Fiyat Teklifi - Drone Çekimi">Hemen Fiyat Alın</button>
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] active:shadow-none min-h-10 rounded-md px-8 py-6 text-lg font-semibold shadow-xl bg-background/20 backdrop-blur-sm text-white border-white/30 hover:bg-background/30" data-testid="button-hero-services" title="Çözümlerimiz - Drone Çekimi">Çözümlerimiz</button>
 </div>
 </div>
-<button data-replit-metadata="client/src/components/Hero.tsx:60:6" data-component-name="button" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce hover-elevate active-elevate-2 p-2 rounded-full" data-testid="button-scroll-down" aria-label="Aşağı kaydır">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-8 h-8" data-replit-metadata="client/src/components/Hero.tsx:66:8" data-component-name="ChevronDown">
+<button class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce hover-elevate active-elevate-2 p-2 rounded-full" data-testid="button-scroll-down" aria-label="Aşağı kaydır">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-8 h-8">
 <path d="m6 9 6 6 6-6"></path>
 </svg>
 </button>
 </section>
-<section data-replit-metadata="client/src/components/InfoSection.tsx:6:4" data-component-name="section" id="about" class="py-16 md:py-24 bg-background">
-<div data-replit-metadata="client/src/components/InfoSection.tsx:7:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/InfoSection.tsx:8:8" data-component-name="div" class="grid md:grid-cols-2 gap-12 items-center mb-20">
-<div data-replit-metadata="client/src/components/InfoSection.tsx:9:10" data-component-name="div">
-<h2 data-replit-metadata="client/src/components/InfoSection.tsx:10:12" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-6">Havadan Görüntüleme Neden Bu Kadar Etkili?</h2>
-<p data-replit-metadata="client/src/components/InfoSection.tsx:13:12" data-component-name="p" class="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">Uzun yılların saha tecrübesi ve ileri teknoloji drone sistemlerimizle Çanakkale genelinde kapsamlı havadan çekim hizmetleri gerçekleştiriyoruz. Yapı projelerinden arazi analizine, kurumsal tanıtımlardan özel gün kayıtlarına kadar her alanda yaratıcı çözümler üretiyoruz.</p>
-<p data-replit-metadata="client/src/components/InfoSection.tsx:19:12" data-component-name="p" class="text-base md:text-lg text-muted-foreground leading-relaxed">Uzman kadromuz ve ileri düzey drone parkurumuz ile işlerinize kusursuz görsel içerikler sağlıyoruz. Her projede kalite standardımızdan ödün vermiyoruz.</p>
+
+<section id="about" class="py-16 md:py-24 bg-background">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+<div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+<div>
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-6">Havadan Görüntüleme Neden Bu Kadar Etkili?</h2>
+<p class="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">Uzun yılların saha tecrübesi ve ileri teknoloji drone sistemlerimizle Çanakkale genelinde kapsamlı havadan çekim hizmetleri gerçekleştiriyoruz. Yapı projelerinden arazi analizine, kurumsal tanıtımlardan özel gün kayıtlarına kadar her alanda yaratıcı çözümler üretiyoruz.</p>
+<p class="text-base md:text-lg text-muted-foreground leading-relaxed">Uzman kadromuz ve ileri düzey drone parkurumuz ile işlerinize kusursuz görsel içerikler sağlıyoruz. Her projede kalite standardımızdan ödün vermiyoruz.</p>
 </div>
-<div data-replit-metadata="client/src/components/InfoSection.tsx:24:10" data-component-name="div" class="relative">
-<img data-replit-metadata="client/src/components/InfoSection.tsx:25:12" data-component-name="img" src="/@fs/home/runner/workspace/attached_assets/generated_images/drone_team_at_work.png" alt="Drone çekimi yapan profesyonel ekip - havadan görüntüleme hizmeti" title="Drone Çekimi Uzman Ekibi" class="rounded-xl shadow-lg w-full" loading="lazy">
+<div class="relative">
+<img src="" alt="Drone çekimi yapan profesyonel ekip - havadan görüntüleme hizmeti" title="Drone Çekimi Uzman Ekibi" class="rounded-xl shadow-lg w-full" loading="lazy">
 </div>
 </div>
-<div data-replit-metadata="client/src/components/InfoSection.tsx:35:8" data-component-name="div" class="grid md:grid-cols-2 gap-12 items-center">
-<div data-replit-metadata="client/src/components/InfoSection.tsx:36:10" data-component-name="div" class="order-2 md:order-1">
-<img data-replit-metadata="client/src/components/InfoSection.tsx:37:12" data-component-name="img" src="/@fs/home/runner/workspace/attached_assets/generated_images/professional_drone_equipment_photo.png" alt="İleri teknoloji drone ekipmanları - Çanakkale drone çekimi" title="Profesyonel Drone Sistemleri" class="rounded-xl shadow-lg w-full" loading="lazy">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="order-2 md:order-1">
+<img src="" alt="İleri teknoloji drone ekipmanları - Çanakkale drone çekimi" title="Profesyonel Drone Sistemleri" class="rounded-xl shadow-lg w-full" loading="lazy">
 </div>
-<div data-replit-metadata="client/src/components/InfoSection.tsx:45:10" data-component-name="div" class="order-1 md:order-2">
-<h2 data-replit-metadata="client/src/components/InfoSection.tsx:46:12" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-6">Son Nesil Drone Teknolojisi</h2>
-<p data-replit-metadata="client/src/components/InfoSection.tsx:49:12" data-component-name="p" class="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">4K ve 8K görüntü kalitesinde çekim yapabilen üst düzey drone sistemlerimiz ile projelerinizde sinema kalitesinde sonuçlar elde ediyoruz. Hassas gimbal teknolojisi sayesinde zorlu koşullarda bile titreşimsiz, net görüntüler yakalıyoruz.</p>
-<p data-replit-metadata="client/src/components/InfoSection.tsx:54:12" data-component-name="p" class="text-base md:text-lg text-muted-foreground leading-relaxed">Ehliyetli ve tam kapsamlı sigortalı pilotlarımız, tüm yasal düzenlemelere uygun şekilde her ortamda güvenli operasyonlar yürütmektedir.</p>
+<div class="order-1 md:order-2">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-6">Son Nesil Drone Teknolojisi</h2>
+<p class="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">4K ve 8K görüntü kalitesinde çekim yapabilen üst düzey drone sistemlerimiz ile projelerinizde sinema kalitesinde sonuçlar elde ediyoruz. Hassas gimbal teknolojisi sayesinde zorlu koşullarda bile titreşimsiz, net görüntüler yakalıyoruz.</p>
+<p class="text-base md:text-lg text-muted-foreground leading-relaxed">Ehliyetli ve tam kapsamlı sigortalı pilotlarımız, tüm yasal düzenlemelere uygun şekilde her ortamda güvenli operasyonlar yürütmektedir.</p>
 </div>
 </div>
 </div>
 </section>
-<section data-replit-metadata="client/src/components/WhyUs.tsx:29:4" data-component-name="section" class="py-16 md:py-24 bg-muted/30">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:30:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:31:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/WhyUs.tsx:32:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">Bizi Farklı Kılan Ne?</h2>
-<p data-replit-metadata="client/src/components/WhyUs.tsx:35:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale'deki havadan çekim projelerinde öncü konumumuz, kalite anlayışımız ve müşteri odaklı yaklaşımımızla desteklenmektedir.</p>
+
+<section class="py-16 md:py-24 bg-muted/30">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Bizi Farklı Kılan Ne?</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Çanakkale'deki havadan çekim projelerinde öncü konumumuz, kalite anlayışımız ve müşteri odaklı yaklaşımımızla desteklenmektedir.</p>
 </div>
-<div data-replit-metadata="client/src/components/WhyUs.tsx:41:8" data-component-name="div" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:43:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-0">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:48:14" data-component-name="CardContent" class="p-6 text-center">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:49:16" data-component-name="div" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-8 h-8" data-replit-metadata="client/src/components/WhyUs.tsx:50:18" data-component-name="feature.icon">
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-0">
+<div class="p-6 text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-8 h-8">
 <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
 <circle cx="12" cy="8" r="6"></circle>
 </svg>
 </div>
-<h3 data-replit-metadata="client/src/components/WhyUs.tsx:52:16" data-component-name="h3" class="text-lg md:text-xl font-semibold text-foreground mb-2">Sinema Kalitesi</h3>
-<p data-replit-metadata="client/src/components/WhyUs.tsx:55:16" data-component-name="p" class="text-sm md:text-base text-muted-foreground">4K ve 8K görüntü standardı, profesyonel renk işleme ve detaylı son işlem hizmetleri.</p>
+<h3 class="text-lg md:text-xl font-semibold text-foreground mb-2">Sinema Kalitesi</h3>
+<p class="text-sm md:text-base text-muted-foreground">4K ve 8K görüntü standardı, profesyonel renk işleme ve detaylı son işlem hizmetleri.</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/WhyUs.tsx:43:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-1">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:48:14" data-component-name="CardContent" class="p-6 text-center">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:49:16" data-component-name="div" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-8 h-8" data-replit-metadata="client/src/components/WhyUs.tsx:50:18" data-component-name="feature.icon">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-1">
+<div class="p-6 text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-8 h-8">
 <circle cx="12" cy="12" r="10"></circle>
 <polyline points="12 6 12 12 16 14"></polyline>
 </svg>
 </div>
-<h3 data-replit-metadata="client/src/components/WhyUs.tsx:52:16" data-component-name="h3" class="text-lg md:text-xl font-semibold text-foreground mb-2">Süratli Teslim</h3>
-<p data-replit-metadata="client/src/components/WhyUs.tsx:55:16" data-component-name="p" class="text-sm md:text-base text-muted-foreground">Çekim bitiminden itibaren 48 saat içinde editlenmiş dosyalarınızı teslim alırsınız.</p>
+<h3 class="text-lg md:text-xl font-semibold text-foreground mb-2">Süratli Teslim</h3>
+<p class="text-sm md:text-base text-muted-foreground">Çekim bitiminden itibaren 48 saat içinde editlenmiş dosyalarınızı teslim alırsınız.</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/WhyUs.tsx:43:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-2">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:48:14" data-component-name="CardContent" class="p-6 text-center">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:49:16" data-component-name="div" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-8 h-8" data-replit-metadata="client/src/components/WhyUs.tsx:50:18" data-component-name="feature.icon">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-2">
+<div class="p-6 text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-8 h-8">
 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
 <circle cx="12" cy="10" r="3"></circle>
 </svg>
 </div>
-<h3 data-replit-metadata="client/src/components/WhyUs.tsx:52:16" data-component-name="h3" class="text-lg md:text-xl font-semibold text-foreground mb-2">Bölge Uzmanlığı</h3>
-<p data-replit-metadata="client/src/components/WhyUs.tsx:55:16" data-component-name="p" class="text-sm md:text-base text-muted-foreground">Çanakkale'nin tüm lokasyonlarına hakim ekibimiz, ideal çekim açılarını bilir.</p>
+<h3 class="text-lg md:text-xl font-semibold text-foreground mb-2">Bölge Uzmanlığı</h3>
+<p class="text-sm md:text-base text-muted-foreground">Çanakkale'nin tüm lokasyonlarına hakim ekibimiz, ideal çekim açılarını bilir.</p>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/WhyUs.tsx:43:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-3">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:48:14" data-component-name="CardContent" class="p-6 text-center">
-<div data-replit-metadata="client/src/components/WhyUs.tsx:49:16" data-component-name="div" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-8 h-8" data-replit-metadata="client/src/components/WhyUs.tsx:50:18" data-component-name="feature.icon">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm hover-elevate active-elevate-2 transition-all cursor-default" data-testid="card-feature-3">
+<div class="p-6 text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-8 h-8">
 <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
 </svg>
 </div>
-<h3 data-replit-metadata="client/src/components/WhyUs.tsx:52:16" data-component-name="h3" class="text-lg md:text-xl font-semibold text-foreground mb-2">Tam Güvence</h3>
-<p data-replit-metadata="client/src/components/WhyUs.tsx:55:16" data-component-name="p" class="text-sm md:text-base text-muted-foreground">Kapsamlı sigortalı sistemler ve sertifikalı operatörlerle risksiz çekim deneyimi.</p>
+<h3 class="text-lg md:text-xl font-semibold text-foreground mb-2">Tam Güvence</h3>
+<p class="text-sm md:text-base text-muted-foreground">Kapsamlı sigortalı sistemler ve sertifikalı operatörlerle risksiz çekim deneyimi.</p>
 </div>
 </div>
+
 </div>
+
 </div>
 </section>
-<section data-replit-metadata="client/src/components/Services.tsx:53:4" data-component-name="section" id="services" class="py-16 md:py-24 bg-background">
-<div data-replit-metadata="client/src/components/Services.tsx:54:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/Services.tsx:55:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/Services.tsx:56:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">Drone Çekimi Çözümlerimiz</h2>
-<p data-replit-metadata="client/src/components/Services.tsx:59:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Her türlü projeniz için özelleştirilmiş, profesyonel havadan çekim hizmetleri sunuyoruz.</p>
+
+<section id="services" class="py-16 md:py-24 bg-background">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Drone Çekimi Çözümlerimiz</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Her türlü projeniz için özelleştirilmiş, profesyonel havadan çekim hizmetleri sunuyoruz.</p>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:64:8" data-component-name="div" class="grid md:grid-cols-3 gap-8">
-<div data-replit-metadata="client/src/components/Services.tsx:66:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-0">
-<div data-replit-metadata="client/src/components/Services.tsx:71:14" data-component-name="div" class="aspect-video overflow-hidden">
-<img data-replit-metadata="client/src/components/Services.tsx:72:16" data-component-name="img" src="/@fs/home/runner/workspace/attached_assets/generated_images/video_service_example_shot.png" alt="Sinematik Video Prodüksiyon - Çanakkale drone çekimi hizmeti" title="Sinematik Video Prodüksiyon - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
+
+<div class="grid md:grid-cols-3 gap-8">
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-0">
+
+<div class="aspect-video overflow-hidden">
+<img src="" alt="Sinematik Video Prodüksiyon - Çanakkale drone çekimi hizmeti" title="Sinematik Video Prodüksiyon - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:80:14" data-component-name="CardHeader" class="flex flex-col space-y-1.5 p-6">
-<div data-replit-metadata="client/src/components/Services.tsx:81:16" data-component-name="div" class="flex items-center gap-3 mb-2">
-<div data-replit-metadata="client/src/components/Services.tsx:82:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video w-6 h-6" data-replit-metadata="client/src/components/Services.tsx:83:20" data-component-name="service.icon">
+
+<div class="flex flex-col space-y-1.5 p-6">
+<div class="flex items-center gap-3 mb-2">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video w-6 h-6">
 <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path>
 <rect x="2" y="6" width="14" height="12" rx="2"></rect>
 </svg>
@@ -257,6 +278,7 @@
 <div data-replit-metadata="client/src/components/Services.tsx:85:18" data-component-name="CardTitle" class="font-semibold tracking-tight text-xl">Sinematik Video Prodüksiyon</div>
 </div>
 </div>
+
 <div data-replit-metadata="client/src/components/Services.tsx:88:14" data-component-name="CardContent" class="p-6 pt-0">
 <ul data-replit-metadata="client/src/components/Services.tsx:89:16" data-component-name="ul" class="space-y-2 mb-6">
 <li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
