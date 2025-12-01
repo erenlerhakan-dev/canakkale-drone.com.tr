@@ -41,8 +41,8 @@
 <meta property="og:description" content="Çanakkale bölgesinin güvenilir drone çekim partneri. Video prodüksiyon ve havadan fotoğraf hizmetleri." />
 
 <meta name="google-site-verification" content="X-BgluOYpkaUjKS2g1jUozj0p_27gQCIf6_DeeijX-c" />
-<meta name="yandex-verification" content="" />
-<meta name="msvalidate.01" content="" />
+<meta name="yandex-verification" content="efd99f3d42b57968" />
+<meta name="msvalidate.01" content="39C3167672F703D668887F9B96E5D632" />
 <meta name='dmca-site-verification' content='' />
 
 <script type="application/ld+json">
