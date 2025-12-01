@@ -185,7 +185,7 @@
 </div>
 <div class="grid md:grid-cols-2 gap-12 items-center">
 <div class="order-2 md:order-1">
-<img src="" alt="İleri teknoloji drone ekipmanları - Çanakkale drone çekimi" title="Profesyonel Drone Sistemleri" class="rounded-xl shadow-lg w-full" loading="lazy">
+<img src="/include/canakkale-drone.jpg" alt="İleri teknoloji drone ekipmanları - Çanakkale drone çekimi" title="Profesyonel Drone Sistemleri" class="rounded-xl shadow-lg w-full" loading="lazy">
 </div>
 <div class="order-1 md:order-2">
 <h2 class="text-2xl md:text-4xl font-bold text-foreground mb-6">Son Nesil Drone Teknolojisi</h2>
