@@ -180,7 +180,7 @@
 <p class="text-base md:text-lg text-muted-foreground leading-relaxed">Uzman kadromuz ve ileri düzey drone parkurumuz ile işlerinize kusursuz görsel içerikler sağlıyoruz. Her projede kalite standardımızdan ödün vermiyoruz.</p>
 </div>
 <div class="relative">
-<img src="" alt="Drone çekimi yapan profesyonel ekip - havadan görüntüleme hizmeti" title="Drone Çekimi Uzman Ekibi" class="rounded-xl shadow-lg w-full" loading="lazy">
+<img src="/include/canakkale-drone-cekimi.jpg" alt="Drone çekimi yapan profesyonel ekip - havadan görüntüleme hizmeti" title="Drone Çekimi Uzman Ekibi" class="rounded-xl shadow-lg w-full" loading="lazy">
 </div>
 </div>
 <div class="grid md:grid-cols-2 gap-12 items-center">
