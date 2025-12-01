@@ -369,7 +369,7 @@
 <path d="M8 14h.01"></path>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:85:18" data-component-name="CardTitle" class="font-semibold tracking-tight text-xl">Şantiye İzleme Sistemi</div>
+<div class="font-semibold tracking-tight text-xl">Şantiye İzleme Sistemi</div>
 </div>
 </div>
 
@@ -401,37 +401,37 @@
 </div>
 </section>
 
-<section data-replit-metadata="client/src/components/QuoteForm.tsx:107:4" data-component-name="section" id="quote" class="py-16 md:py-24 bg-muted/30">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:108:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:109:8" data-component-name="div" class="text-center mb-12">
-<h2 data-replit-metadata="client/src/components/QuoteForm.tsx:110:10" data-component-name="h2" class="text-2xl md:text-4xl font-bold text-foreground mb-4">Ücretsiz Fiyat Teklifi</h2>
-<p data-replit-metadata="client/src/components/QuoteForm.tsx:113:10" data-component-name="p" class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Projenize özel detaylı fiyatlandırma için formu doldurun. Bir iş günü içinde size geri dönüş sağlayacağız.</p>
+<section id="quote" class="py-16 md:py-24 bg-muted/30">
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+<div class="text-center mb-12">
+<h2 class="text-2xl md:text-4xl font-bold text-foreground mb-4">Ücretsiz Fiyat Teklifi</h2>
+<p class="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">Projenize özel detaylı fiyatlandırma için formu doldurun. Bir iş günü içinde size geri dönüş sağlayacağız.</p>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:119:8" data-component-name="div" class="grid lg:grid-cols-3 gap-8">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:120:10" data-component-name="div" class="lg:col-span-2">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:121:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:122:14" data-component-name="CardHeader" class="flex flex-col space-y-1.5 p-6">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:123:16" data-component-name="CardTitle" class="text-2xl font-semibold leading-none tracking-tight">Bilgi Formu</div>
+<div class="grid lg:grid-cols-3 gap-8">
+<div class="lg:col-span-2">
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm">
+<div class="flex flex-col space-y-1.5 p-6">
+<div class="text-2xl font-semibold leading-none tracking-tight">Bilgi Formu</div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:125:14" data-component-name="CardContent" class="p-6 pt-0">
-<form data-replit-metadata="client/src/components/QuoteForm.tsx:126:16" data-component-name="form" class="space-y-4">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:127:18" data-component-name="div" class="grid sm:grid-cols-2 gap-4">
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:128:20" data-component-name="div">
-<label data-replit-metadata="client/src/components/QuoteForm.tsx:129:22" data-component-name="Label" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="name">Ad Soyad *</label>
-<input data-replit-metadata="client/src/components/QuoteForm.tsx:130:22" data-component-name="Input" type="text" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="name" required="" placeholder="İsim ve soyisminiz" data-testid="input-quote-name" value="">
+<div class="p-6 pt-0">
+<form class="space-y-4">
+<div class="grid sm:grid-cols-2 gap-4">
+<div>
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="name">Ad Soyad *</label>
+<input type="text" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="name" required="" placeholder="İsim ve soyisminiz" data-testid="input-quote-name" value="">
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:147:20" data-component-name="div">
-<label data-replit-metadata="client/src/components/QuoteForm.tsx:148:22" data-component-name="Label" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="phone">Telefon *</label>
-<input data-replit-metadata="client/src/components/QuoteForm.tsx:149:22" data-component-name="Input" type="tel" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="phone" required="" placeholder="+90 5XX XXX XX XX" data-testid="input-quote-phone" value="">
+<div>
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="phone">Telefon *</label>
+<input type="tel" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="phone" required="" placeholder="+90 5XX XXX XX XX" data-testid="input-quote-phone" value="">
 </div>
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:167:18" data-component-name="div">
-<label data-replit-metadata="client/src/components/QuoteForm.tsx:168:20" data-component-name="Label" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="email">E-posta *</label>
-<input data-replit-metadata="client/src/components/QuoteForm.tsx:169:20" data-component-name="Input" type="email" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="email" required="" placeholder="eposta@adresiniz.com" data-testid="input-quote-email" value="">
+<div>
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="email">E-posta *</label>
+<input type="email" class="flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="email" required="" placeholder="eposta@adresiniz.com" data-testid="input-quote-email" value="">
 </div>
-<div data-replit-metadata="client/src/components/QuoteForm.tsx:186:18" data-component-name="div">
-<label data-replit-metadata="client/src/components/QuoteForm.tsx:187:20" data-component-name="Label" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="projectType">Çekim Kategorisi *</label>
-<button type="button" role="combobox" aria-controls="radix-:r0:" aria-expanded="false" aria-required="true" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" data-replit-metadata="client/src/components/QuoteForm.tsx:196:22" data-component-name="SelectTrigger" class="flex h-9 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1" data-testid="select-quote-project-type">
+<div>
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="projectType">Çekim Kategorisi *</label>
+<button type="button" role="combobox" aria-controls="radix-:r0:" aria-expanded="false" aria-required="true" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="flex h-9 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1" data-testid="select-quote-project-type">
 <span data-replit-metadata="client/src/components/QuoteForm.tsx:200:24" data-component-name="SelectValue" style="pointer-events: none;">Kategori seçiniz</span>
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" data-replit-metadata="client/src/components/ui/select.tsx:29:6" data-component-name="ChevronDown" aria-hidden="true">
 <path d="m6 9 6 6 6-6"></path>
@@ -739,59 +739,59 @@ xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-6">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-6">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Tarihi mekanlar drone çekimi" title="Tarihi Alanlar" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Tarihi Alanlar</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Tarihi Alanlar</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-7">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-7">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Anıt havadan video çekimi" title="Anıt Görünümü" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:56:18" data-component-name="div" class="absolute inset-0 flex items-center justify-center">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:57:20" data-component-name="div" class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Anıt Görünümü</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Video</p>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Anıt Görünümü</p>
+<p class="text-white/80 text-sm capitalize">Video</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-8">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-8">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Tarımsal alan drone görüntüsü" title="Tarla Haritası" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Tarla Haritası</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Tarla Haritası</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-9">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-9">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Üniversite kampüsü drone fotoğrafı" title="Kampüs Çekimi" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Kampüs Çekimi</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Kampüs Çekimi</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-10">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-10">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Sahil drone video çekimi" title="Kıyı Şeridi" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:56:18" data-component-name="div" class="absolute inset-0 flex items-center justify-center">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:57:20" data-component-name="div" class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-8 h-8 text-primary-foreground ml-1" data-replit-metadata="client/src/components/Portfolio.tsx:58:22" data-component-name="Play">
 <polygon points="6 3 20 12 6 21 6 3"></polygon>
 </svg>
