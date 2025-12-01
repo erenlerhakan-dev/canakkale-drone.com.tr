@@ -91,6 +91,16 @@
 
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QHQV57D0KS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QHQV57D0KS');
+</script>
+
 <body>
 
 <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
