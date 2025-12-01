@@ -288,9 +288,7 @@ x(e) && (L(e) || k(e) ? await _(e, i) : await Promise.all(["img", "video"].flatM
 }
 var pe = function() {
 let i = 0,
-t = () => `0000${(Math.random()*36**4<
-<0).toString(36)}`.slice(-4);
-return () => (i += 1, `u${t()}${i}`)
+t = () => `0000${(Math.random()*36**4<<0).toString(36)}`.slice(-4);return () => (i += 1, `u${t()}${i}`)
 }();
 
 function be(e) {
