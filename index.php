@@ -43,7 +43,7 @@
 <meta name="google-site-verification" content="X-BgluOYpkaUjKS2g1jUozj0p_27gQCIf6_DeeijX-c" />
 <meta name="yandex-verification" content="efd99f3d42b57968" />
 <meta name="msvalidate.01" content="39C3167672F703D668887F9B96E5D632" />
-<meta name='dmca-site-verification' content='' />
+<meta name='dmca-site-verification' content='bzduT1dDaW9aS3VaTkxTMVN3SENQSUpKVEZVSDU5d2FHZ0hEZHpNWkNTTT01' />
 
 <script type="application/ld+json">
 {
