@@ -1023,5 +1023,7 @@ xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400
 </div>
 </div>
 
+<script src="/include/js.js"></script>
+
 </body>
 </html>
