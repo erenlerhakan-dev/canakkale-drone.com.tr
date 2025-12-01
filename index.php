@@ -261,6 +261,7 @@
 </div>
 
 <div class="grid md:grid-cols-3 gap-8">
+
 <div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-0">
 
 <div class="aspect-video overflow-hidden">
@@ -275,77 +276,86 @@
 <rect x="2" y="6" width="14" height="12" rx="2"></rect>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:85:18" data-component-name="CardTitle" class="font-semibold tracking-tight text-xl">Sinematik Video Prodüksiyon</div>
+<div class="font-semibold tracking-tight text-xl">Sinematik Video Prodüksiyon</div>
 </div>
 </div>
 
-<div data-replit-metadata="client/src/components/Services.tsx:88:14" data-component-name="CardContent" class="p-6 pt-0">
-<ul data-replit-metadata="client/src/components/Services.tsx:89:16" data-component-name="ul" class="space-y-2 mb-6">
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">4K ve 8K Ultra Yüksek Çözünürlük</span>
+<div class="p-6 pt-0">
+<ul class="space-y-2 mb-6">
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>4K ve 8K Ultra Yüksek Çözünürlük</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Film tarzı görsel anlatım</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Film tarzı görsel anlatım</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Kapsamlı renk düzenleme</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Kapsamlı renk düzenleme</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Kurumsal ve reklam içerikleri</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Kurumsal ve reklam içerikleri</span>
 </li>
 </ul>
-<button data-replit-metadata="client/src/components/Services.tsx:97:16" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-0" title="Sinematik Video Prodüksiyon için fiyat teklifi al">Bilgi Talep Et</button>
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-0" title="Sinematik Video Prodüksiyon için fiyat teklifi al">Bilgi Talep Et</button>
 </div>
+
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:66:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-1">
-<div data-replit-metadata="client/src/components/Services.tsx:71:14" data-component-name="div" class="aspect-video overflow-hidden">
-<img data-replit-metadata="client/src/components/Services.tsx:72:16" data-component-name="img" src="/@fs/home/runner/workspace/attached_assets/generated_images/real_estate_aerial_photography.png" alt="Havadan Fotoğraf Hizmeti - Çanakkale drone çekimi hizmeti" title="Havadan Fotoğraf Hizmeti - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-1">
+
+<div class="aspect-video overflow-hidden">
+<img src="" alt="Havadan Fotoğraf Hizmeti - Çanakkale drone çekimi hizmeti" title="Havadan Fotoğraf Hizmeti - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:80:14" data-component-name="CardHeader" class="flex flex-col space-y-1.5 p-6">
-<div data-replit-metadata="client/src/components/Services.tsx:81:16" data-component-name="div" class="flex items-center gap-3 mb-2">
-<div data-replit-metadata="client/src/components/Services.tsx:82:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-camera w-6 h-6" data-replit-metadata="client/src/components/Services.tsx:83:20" data-component-name="service.icon">
+
+<div class="flex flex-col space-y-1.5 p-6">
+<div class="flex items-center gap-3 mb-2">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-camera w-6 h-6">
 <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
 <circle cx="12" cy="13" r="3"></circle>
 </svg>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:85:18" data-component-name="CardTitle" class="font-semibold tracking-tight text-xl">Havadan Fotoğraf Hizmeti</div>
+<div class="font-semibold tracking-tight text-xl">Havadan Fotoğraf Hizmeti</div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:88:14" data-component-name="CardContent" class="p-6 pt-0">
-<ul data-replit-metadata="client/src/components/Services.tsx:89:16" data-component-name="ul" class="space-y-2 mb-6">
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Yüksek netlikli görüntüler</span>
+
+<div class="p-6 pt-0">
+<ul class="space-y-2 mb-6">
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Yüksek netlikli görüntüler</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Gayrimenkul ve yapı görselleri</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Gayrimenkul ve yapı görselleri</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Geniş açı panorama çekimleri</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Geniş açı panorama çekimleri</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">360 derece interaktif turlar</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>360 derece interaktif turlar</span>
 </li>
 </ul>
-<button data-replit-metadata="client/src/components/Services.tsx:97:16" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-1" title="Havadan Fotoğraf Hizmeti için fiyat teklifi al">Bilgi Talep Et</button>
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-1" title="Havadan Fotoğraf Hizmeti için fiyat teklifi al">Bilgi Talep Et</button>
 </div>
+
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:66:12" data-component-name="Card" class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-2">
-<div data-replit-metadata="client/src/components/Services.tsx:71:14" data-component-name="div" class="aspect-video overflow-hidden">
-<img data-replit-metadata="client/src/components/Services.tsx:72:16" data-component-name="img" src="/@fs/home/runner/workspace/attached_assets/generated_images/construction_site_aerial_documentation.png" alt="Şantiye İzleme Sistemi - Çanakkale drone çekimi hizmeti" title="Şantiye İzleme Sistemi - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
+
+<div class="shadcn-card rounded-xl border bg-card border-card-border text-card-foreground shadow-sm overflow-hidden hover-elevate active-elevate-2 transition-all" data-testid="card-service-2">
+
+<div class="aspect-video overflow-hidden">
+<img src="" alt="Şantiye İzleme Sistemi - Çanakkale drone çekimi hizmeti" title="Şantiye İzleme Sistemi - Drone Çekimi" class="w-full h-full object-cover" loading="lazy">
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:80:14" data-component-name="CardHeader" class="flex flex-col space-y-1.5 p-6">
-<div data-replit-metadata="client/src/components/Services.tsx:81:16" data-component-name="div" class="flex items-center gap-3 mb-2">
-<div data-replit-metadata="client/src/components/Services.tsx:82:18" data-component-name="div" class="p-2 rounded-lg bg-primary/10 text-primary">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building w-6 h-6" data-replit-metadata="client/src/components/Services.tsx:83:20" data-component-name="service.icon">
+
+<div class="flex flex-col space-y-1.5 p-6">
+<div class="flex items-center gap-3 mb-2">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building w-6 h-6">
 <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
 <path d="M9 22v-4h6v4"></path>
 <path d="M8 6h.01"></path>
@@ -362,31 +372,35 @@
 <div data-replit-metadata="client/src/components/Services.tsx:85:18" data-component-name="CardTitle" class="font-semibold tracking-tight text-xl">Şantiye İzleme Sistemi</div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Services.tsx:88:14" data-component-name="CardContent" class="p-6 pt-0">
-<ul data-replit-metadata="client/src/components/Services.tsx:89:16" data-component-name="ul" class="space-y-2 mb-6">
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Periyodik gelişim kayıtları</span>
+
+<div class="p-6 pt-0">
+<ul class="space-y-2 mb-6">
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Periyodik gelişim kayıtları</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Kapsamlı durum raporları</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span >Kapsamlı durum raporları</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Proje arşiv belgeleme</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Proje arşiv belgeleme</span>
 </li>
-<li data-replit-metadata="client/src/components/Services.tsx:91:20" data-component-name="li" class="flex items-start gap-2 text-sm text-muted-foreground">
-<span data-replit-metadata="client/src/components/Services.tsx:92:22" data-component-name="span" class="text-primary mt-1">•</span>
-<span data-replit-metadata="client/src/components/Services.tsx:93:22" data-component-name="span">Kontrol ve denetim görüntüleri</span>
+<li class="flex items-start gap-2 text-sm text-muted-foreground">
+<span class="text-primary mt-1">•</span>
+<span>Kontrol ve denetim görüntüleri</span>
 </li>
 </ul>
-<button data-replit-metadata="client/src/components/Services.tsx:97:16" data-component-name="Button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-2" title="Şantiye İzleme Sistemi için fiyat teklifi al">Bilgi Talep Et</button>
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 border [border-color:var(--button-outline)] shadow-xs active:shadow-none min-h-9 px-4 py-2 w-full" data-testid="button-service-quote-2" title="Şantiye İzleme Sistemi için fiyat teklifi al">Bilgi Talep Et</button>
 </div>
+
 </div>
+
 </div>
 </div>
 </section>
+
 <section data-replit-metadata="client/src/components/QuoteForm.tsx:107:4" data-component-name="section" id="quote" class="py-16 md:py-24 bg-muted/30">
 <div data-replit-metadata="client/src/components/QuoteForm.tsx:108:6" data-component-name="div" class="max-w-7xl mx-auto px-4 md:px-6">
 <div data-replit-metadata="client/src/components/QuoteForm.tsx:109:8" data-component-name="div" class="text-center mb-12">
@@ -783,19 +797,19 @@ xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400
 </svg>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Kıyı Şeridi</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Video</p>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Kıyı Şeridi</p>
+<p class="text-white/80 text-sm capitalize">Video</p>
 </div>
 </div>
 </div>
-<div data-replit-metadata="client/src/components/Portfolio.tsx:38:12" data-component-name="div" class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-11">
-<img data-replit-metadata="client/src/components/Portfolio.tsx:47:14" data-component-name="img" src="data:image/svg+xml,%3Csvg
+<div class="relative aspect-square overflow-hidden rounded-xl group cursor-pointer hover-elevate active-elevate-2 transition-all" data-testid="portfolio-item-11">
+<img src="data:image/svg+xml,%3Csvg
 xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='400' height='400' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%239ca3af'%3EGörsel Yok%3C/text%3E%3C/svg%3E" alt="Şehir merkezi drone görüntüsü" title="Kent Silueti" class="w-full h-full object-cover" loading="lazy">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:54:14" data-component-name="div" class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-<div data-replit-metadata="client/src/components/Portfolio.tsx:62:16" data-component-name="div" class="absolute bottom-0 left-0 right-0 p-4">
-<p data-replit-metadata="client/src/components/Portfolio.tsx:63:18" data-component-name="p" class="text-white font-semibold">Kent Silueti</p>
-<p data-replit-metadata="client/src/components/Portfolio.tsx:64:18" data-component-name="p" class="text-white/80 text-sm capitalize">Fotoğraf</p>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<p class="text-white font-semibold">Kent Silueti</p>
+<p class="text-white/80 text-sm capitalize">Fotoğraf</p>
 </div>
 </div>
 </div>
