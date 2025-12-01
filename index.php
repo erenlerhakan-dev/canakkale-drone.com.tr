@@ -40,7 +40,7 @@
 <meta property="og:title" content="Çanakkale Drone Çekimi - Havadan Görüntüleme Uzmanı" />
 <meta property="og:description" content="Çanakkale bölgesinin güvenilir drone çekim partneri. Video prodüksiyon ve havadan fotoğraf hizmetleri." />
 
-<meta name="google-site-verification" content="" />
+<meta name="google-site-verification" content="X-BgluOYpkaUjKS2g1jUozj0p_27gQCIf6_DeeijX-c" />
 <meta name="yandex-verification" content="" />
 <meta name="msvalidate.01" content="" />
 <meta name='dmca-site-verification' content='' />
