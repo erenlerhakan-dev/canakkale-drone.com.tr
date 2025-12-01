@@ -140,7 +140,7 @@
 </header>
 
 <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-<div class="absolute inset-0 bg-cover bg-center" style="background-image: url(&quot;/@fs/home/runner/workspace/attached_assets/generated_images/%C3%A7anakkale_aerial_hero_view.png&quot;);">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('');">
 <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
 </div>
 <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-6 text-center">
@@ -547,7 +547,7 @@
 <div class="p-6">
 <div class="flex items-center gap-4 mb-4">
 <span class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
-<img class="aspect-square h-full w-full" alt="Elif Arslan - drone çekimi müşteri görüşü" title="Elif Arslan" src="/@fs/home/runner/workspace/attached_assets/generated_images/architect_client_testimonial_portrait.png">
+<img class="aspect-square h-full w-full" alt="Elif Arslan - drone çekimi müşteri görüşü" title="Elif Arslan" src="">
 </span>
 <div>
 <p class="font-semibold text-foreground">Elif Arslan</p>
@@ -578,7 +578,7 @@
 <div class="p-6">
 <div class="flex items-center gap-4 mb-4">
 <span class="after:content-[''] after:block after:absolute after:inset-0 after:rounded-full after:pointer-events-none after:border after:border-black/10 dark:after:border-white/10 relative flex shrink-0 overflow-hidden rounded-full w-16 h-16">
-<img class="aspect-square h-full w-full" alt="Burak Şahin - drone çekimi müşteri görüşü" title="Burak Şahin" src="/@fs/home/runner/workspace/attached_assets/generated_images/developer_client_testimonial_portrait.png">
+<img class="aspect-square h-full w-full" alt="Burak Şahin - drone çekimi müşteri görüşü" title="Burak Şahin" src="">
 </span>
 <div>
 <p class="font-semibold text-foreground">Burak Şahin</p>
